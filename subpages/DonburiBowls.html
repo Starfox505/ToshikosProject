@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teriyaki Bowls: Toshikos Japanese Cuisine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="Donburi, Teriyaki Bowls, Chicken, Salmon
+    New York Steak, Ribeye Steak">
+    <meta name="description" content="This is an order page for Donburi or Teriyaki Bowls from Toshikos
+    Japanese Cuisine. We offer A La Carte or Meal options for our Salmon, New York Steak, Chicken, and
+    Ribeye. The A La Carte option comes with white rice and your choice of meat. The Donburi option comes
+    with white rice, assorted veggies, your choice of meat, a miso soup, and a salad.">
+</head>
+<body>
+    <div><img src="images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Teriyaki Bowls</h1></div>
+    <form id="order" action="order.html" method="post">
+    <fieldset>
+        <legend>Meal or A La Carte</legend>
+        <input type="radio" name="bowl" id="bowl" value="meal" required>
+        <label for="bowl">Donburi</label><br>
+        <input type="radio" name="bowl" id="alacarte" value="alacarte" required>
+        <label for="alacarte">A La Carte</label><br>
+        </fieldset>
+    <fieldset>
+        <legend>Meat</legend>
+        <input type="radio" name="meat" id="chicken" value="chicken" required>
+        <label for="chicken">Chicken</label><br>
+        <input type="radio" name="meat" id="salmon" value="salmon" required>
+        <label for="salmon"> Salmon</label><br>
+        <input type="radio" name="meat" id="newyork" value="newyork" required>
+        <label for="newyork">New York Steak</label><br>
+        <input type="radio" name="meat" id="ribeye" value="ribeye" required>
+        <label for="ribeye">Ribeye</label><br>
+        </fieldset>
+    <fieldset>
+        <legend>Veggies and Sides</legend>
+        <input type="checkbox" name="sides" id="veg1" value="zucchini">
+        <label for="veg1">Zucchini</label><br>
+        <input type="checkbox" name="sides" id="veg2" value="mushroom">
+        <label for="veg2">Mushrooms</label><br>
+        <input type="checkbox" name="sides" id="veg3" value="broccoli">
+        <label for="veg3">Broccoli</label><br>
+        <input type="checkbox" name="sides" id="veg4" value="carrots">
+        <label for="veg4">Carrots</label><br>
+        <input type="checkbox" name="sides" id="side1" value="miso">
+        <label for="side1">Miso Soup</label><br>
+        <input type="checkbox" name="sides" id="side2" value="salad">
+        <label for="side2">Green Salad with Ginger Ponzu Dressing</label><br>
+        </fieldset>
+    <fieldset>
+        <legend>Drinks:</legend>
+        <input type="radio" name="size" id="size1" value="small">
+        <label for="size1">Small</label><br>
+        <input type="radio" name="size" id="size2" value="large">
+        <label for="size2">Large</label><br>
+        <label for="drinks">Drink Choices:</label>
+        <select name="drinks" id="drinks">
+            <option value="coke">Coke</option>
+            <option value="diet">Diet Coke</option>
+            <option value="cherry">Cherry Coke</option>
+            <option value="sprite">Sprite</option>
+            <option value="lemonade">Lemonade</option>
+            <option value="drpepper">Dr. Pepper</option>
+            <option value="raspberry">Brisk Raspberry Tea</option>
+            <option value="iced">Iced Tea</option>
+            <option value="hot">Hot Green Tea</option>
+        </select>
+        </fieldset>
+    <br>
+    <h2>Special Instructions</h2><br><br>
+    <label for="instructions">Special Instructions:</label><br><br>
+    <textarea name="instructions" id="instructions" cols="70" rows="10" placeholder="If you have any preferences or allergies, please let us know here."></textarea><br>
+    <br>
+    <h2>Enter your Information</h2><br>
+    <br>
+    <label for="name">Enter your name:</label><br>
+    <input name="name" id="name" required><br>
+    <label for="email">Enter your email:</label><br>
+    <input type="email" name="email" id="email" maxlength="50" required><br>
+    <label for="phone">Enter your phone number:</label><br>
+    <input type="tel" name="phone" id="phone" maxlength="13" required><br>
+    <br>
+    <h2>Pick Up or To Go</h2><br><br>
+    <input type="radio" name="pickup" id="pickup" value="pickup" required>
+    <label for="pickup">Pick Up</label>
+    <input type="radio" name="pickup" id="togo" value="togo" required>
+    <label for="togo">To Go</label><br>
+    <input class="checkout" type="submit" id="checkout" value="Checkout">
+    <input class="clear" type="reset" id="resetorder" value="Clear Cart">
+    </form>
+    
+</body>
+</html>
