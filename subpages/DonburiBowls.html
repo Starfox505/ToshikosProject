@@ -15,7 +15,7 @@
     with white rice, assorted veggies, your choice of meat, a miso soup, and a salad.">
 </head>
 <body>
-    <div><img src="images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Teriyaki Bowls</h1></div>
+    <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Teriyaki Bowls</h1></div>
     <form id="order" action="order.html" method="post">
     <fieldset>
         <legend>Meal or A La Carte</legend>
@@ -83,11 +83,11 @@
     <label for="phone">Enter your phone number:</label><br>
     <input type="tel" name="phone" id="phone" maxlength="13" required><br>
     <br>
-    <h2>Pick Up or To Go</h2><br><br>
-    <input type="radio" name="pickup" id="pickup" value="pickup" required>
-    <label for="pickup">Pick Up</label>
-    <input type="radio" name="pickup" id="togo" value="togo" required>
-    <label for="togo">To Go</label><br>
+    <h2>Pick Up Time</h2><br><br>
+    <label for="date">Date:</label><br>
+    <input type="date" name="date" id="date" value="2021-10-1" required><br>
+    <label for="time">Pick Up Time:</label><br>
+    <input type="time" name="time" id="time" min="11:00" max="21:30" required><br>
     <input class="checkout" type="submit" id="checkout" value="Checkout">
     <input class="clear" type="reset" id="resetorder" value="Clear Cart">
     </form>
