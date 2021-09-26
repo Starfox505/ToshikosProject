@@ -13,6 +13,73 @@
     and Vegetable Tempura.">
 </head>
 <body>
-    
+    <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Appetizers</h1></div>
+    <form id="order" action="order.html" method="post">
+    <fieldset>
+        <legend>Edamame</legend>
+        <input type="radio" name="salted" id="salted" value="salted" required>
+        <label for="salted">Salted</label><br>
+        <input type="radio" name="bowl" id="garlic" value="garlic" required>
+        <label for="garlic">Garlic</label><br>
+        <input type="radio" name="spicy" id="spicy" value="spicy" required>
+        <label for="spicy">Spicy</label><br>
+        </fieldset>
+    <fieldset>
+        <legend>Gyoza</legend>
+        <input type="radio" name="gyoza" id="fried" value="fried" required>
+        <label for="fried">Fried</label><br>
+        <input type="radio" name="gyoza" id="steamed" value="steamed" required>
+        <label for="steamed">Steamed</label><br>
+        </fieldset>
+    <fieldset>
+        <legend>Shrimp and Vegetable Tempura</legend>
+        <input type="checkbox" name="sides" id="veg1" value="zucchini">
+        <label for="veg1">Zucchini</label><br>
+        <input type="checkbox" name="sides" id="veg2" value="mushroom">
+        <label for="veg2">Mushrooms</label><br>
+        <input type="checkbox" name="sides" id="veg3" value="broccoli">
+        <label for="veg3">Broccoli</label><br>
+        <input type="checkbox" name="sides" id="veg4" value="yams">
+        <label for="veg4">Yams</label><br>
+        <input type="checkbox" name="sides" id="shrimp" value="shrimp">
+        <label for="side1">Shrimp</label><br>
+        </fieldset>
+    <fieldset>
+        <legend>Soups and Salads</legend>
+        <input type="checkbox" name="saladsoup" id="salad1" value="green">
+        <label for="salad1">Green Salad with Sesame Dressing</label><br>
+        <input type="checkbox" name="saladsoup" id="salad2" value="ocean">
+        <label for="salad2">Ocean Salad</label><br>
+        <input type="checkbox" name="saladsoup" id="salad3" value="seared">
+        <label for="salad3">Seared Tuna Salad</label><br>
+        <input type="checkbox" name="saladsoup" id="salad4" value="cucumber">
+        <label for="salad4">Cucumber Salad</label><br>
+        <input type="checkbox" name="saladsoup" id="soup" value="miso">
+        <label for="soup">Miso Soup</label><br>
+        <input type="checkbox" name="saladsoup" id="kimchi" value="kimchi">
+        <label for="kimchi">Kimchi</label><br>
+        </fieldset>
+    <br>
+    <h2>Special Instructions</h2><br><br>
+    <label for="instructions">Special Instructions:</label><br><br>
+    <textarea name="instructions" id="instructions" cols="70" rows="10" placeholder="If you have any preferences or allergies, please let us know here."></textarea><br>
+    <br>
+    <h2>Enter your Information</h2><br>
+    <br>
+    <label for="name">Enter your name:</label><br>
+    <input name="name" id="name" required><br>
+    <label for="email">Enter your email:</label><br>
+    <input type="email" name="email" id="email" maxlength="50" required><br>
+    <label for="phone">Enter your phone number:</label><br>
+    <input type="tel" name="phone" id="phone" maxlength="13" required><br>
+    <br>
+    <h2>Pick Up Time</h2><br><br>
+    <label for="date">Date:</label><br>
+    <input type="date" name="date" id="date" value="2021-10-1" required><br>
+    <label for="time">Pick Up Time:</label><br>
+    <input type="time" name="time" id="time" min="11:00" max="21:30" required><br>
+    <input class="checkout" type="submit" id="checkout" value="Checkout">
+    <input class="clear" type="reset" id="resetorder" value="Clear Cart">
+    </form>
 </body>
 </html>
