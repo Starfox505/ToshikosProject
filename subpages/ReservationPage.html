@@ -13,6 +13,7 @@
 </head>
 <body>
     <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Reservations</h1></div><br>
+    <form id="order" action="../subpages/ReservationConfirmed.html" method="post">
     <h2>Enter your Information</h2><br>
     <br>
     <label for="name">Enter your name:</label><br>
@@ -24,5 +25,8 @@
     <label for="time">Pick Up Time:</label><br>
     <input type="time" name="time" id="time" min="11:00" max="21:30" required>
     <br>
+    <input class="checkout" type="submit" id="checkout" value="Checkout">
+    <input class="clear" type="reset" id="resetorder" value="Clear Cart">
+    </form>
 </body>
 </html>
