@@ -16,7 +16,7 @@
 </head>
 <body>
     <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Teriyaki Bowls</h1></div>
-    <form id="order" action="order.html" method="post">
+    <form id="order" action="../subpages/OrderConfirmationPage.html" method="post">
     <fieldset>
         <legend>Meal or A La Carte</legend>
         <input type="radio" name="bowl" id="bowl" value="meal" required>
@@ -87,10 +87,9 @@
     <label for="date">Date:</label><br>
     <input type="date" name="date" id="date" value="2021-10-1" required><br>
     <label for="time">Pick Up Time:</label><br>
-    <input type="time" name="time" id="time" min="11:00" max="21:30" required><br>
+    <input type="time" name="time" id="time" min="11:00" max="21:30" required><br><br>
     <input class="checkout" type="submit" id="checkout" value="Checkout">
     <input class="clear" type="reset" id="resetorder" value="Clear Cart">
     </form>
-    
 </body>
 </html>
