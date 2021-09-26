@@ -4,9 +4,8 @@ body {
     font-size: 18px;
     background-color: rgb(255, 0, 0);
     font-family: 'Lato', sans-serif;
-    margin-left: 1.75rem;
-    margin-right: 1.75rem;
-    line-height: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 input, select, textarea, fieldset {
