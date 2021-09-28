@@ -14,15 +14,24 @@
 </head>
 <body>
     <header>
-        <nav id="nav-list">
-            <ul>
-                <li><a href="../HomePage.html">Home Page</a></li>
-                <li><a href="ReservationPage.html">Reservations</a></li>
-                <li><a href="ContactUs.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Ramen</h1></div>
     </header>
-    <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Ramen and Udon Soups</h1></div>
+    <nav id="nav-list">
+        <ul>
+            <li><a href="../HomePage.html">Home Page</a></li>
+            <li><a href="ReservationPage.html">Reservations</a></li>
+            <li><a href="OurMenu.html">Order Takeout</a>
+                <ul>
+                    <li><a href="Appetizers.html">Appetizers</a></li>
+                    <li><a href="DonburiBowls.html">Donburi Bowls</a></li>
+                    <li><a href="Ramen.html">Ramen</a></li>
+                    <li><a href="Sushi.html">Sushi</a></li>
+                </ul>
+            </li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <br>
     <form id="order" action="../subpages/OrderConfirmationPage.html" method="post">
     <fieldset>
         <legend>Miso Ramen</legend>
@@ -41,7 +50,6 @@
         <input type="checkbox" name="miso" id="miso7" value="noodles">
         <label for="mmiso7">Ramen Noodles</label><br>
         </fieldset>
-    </form>
     <fieldset>
         <legend>Tonkatsu Ramen</legend>
         <input type="checkbox" name="tonkatsu" id="tonk1" value="pork">
@@ -56,7 +64,7 @@
         <label for="tonk5">Tonkatsu Broth</label><br>
         <input type="checkbox" name="tonkatsu" id="tonk6" value="noodles">
         <label for="tonk6">Ramen Noodles</label><br>
-        </fieldset>
+    </fieldset>
     <fieldset>
         <legend>Tonkatsu Tonkatsu Ramen</legend>
         <input type="checkbox" name="tonkatsu2" id="tonktonk1" value="tonkatsu">
@@ -88,7 +96,7 @@
         <label for="seafood4">50/50 Spicy Miso and Tonkatsu Broth</label><br>
         <input type="checkbox" name="seafood" id="seafood5" value="noodles">
         <label for="seafood5">Ramen Noodles</label><br>
-        </fieldset>
+    </fieldset>
     <fieldset>
         <legend>Udon Noodle Soup</legend>
         <input type="checkbox" name="udon" id="udon1" value="tofu">
@@ -117,26 +125,27 @@
         <input type="checkbox" name="chkudon" id="chkudon6" value="noodles">
         <label for="chkudon6">Udon Noodles</label><br>
         </fieldset>
-    <br>
-    <h2>Special Instructions</h2><br><br>
-    <label for="instructions">Special Instructions:</label><br><br>
-    <textarea name="instructions" id="instructions" cols="70" rows="10" placeholder="If you have any preferences or allergies, please let us know here."></textarea><br>
-    <br>
-    <h2>Enter your Information</h2><br>
-    <br>
-    <label for="name">Enter your name:</label><br>
-    <input name="name" id="name" required><br>
-    <label for="email">Enter your email:</label><br>
-    <input type="email" name="email" id="email" maxlength="50" required><br>
-    <label for="phone">Enter your phone number:</label><br>
-    <input type="tel" name="phone" id="phone" maxlength="13" required><br>
-    <br>
-    <h2>Pick Up Time</h2><br><br>
-    <label for="date">Date:</label><br>
-    <input type="date" name="date" id="date" value="2021-10-1" required><br>
-    <label for="time">Pick Up Time:</label><br>
-    <input type="time" name="time" id="time" min="11:00" max="21:30" required><br><br>
-    <input class="checkout" type="submit" id="checkout" value="Checkout">
-    <input class="clear" type="reset" id="resetorder" value="Clear Cart">
+        <br>
+        <h2>Special Instructions</h2><br><br>
+        <label for="instructions">Special Instructions:</label><br><br>
+        <textarea name="instructions" id="instructions" cols="70" rows="10" placeholder="If you have any preferences or allergies, please let us know here."></textarea><br>
+        <br>
+        <h2>Enter your Information</h2><br>
+        <br>
+        <label for="name">Enter your name:</label><br>
+        <input name="name" id="name" required><br>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" name="email" id="email" maxlength="50" required><br>
+        <label for="phone">Enter your phone number:</label><br>
+        <input type="tel" name="phone" id="phone" maxlength="13" required><br>
+        <br>
+        <h2>Pick Up Time</h2><br><br>
+        <label for="date">Date:</label><br>
+        <input type="date" name="date" id="date" value="2021-10-01" required><br>
+        <label for="time">Pick Up Time:</label><br>
+        <input type="time" name="time" id="time" min="11:00" max="21:30" required><br><br>
+        <input class="checkout" type="submit" id="checkout" value="Checkout">
+        <input class="clear" type="reset" id="resetorder" value="Clear Cart">
+    </form>
 </body>
 </html>
