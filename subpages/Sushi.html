@@ -6,21 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sushi | Toshikos Japanese Cuisine</title>
     <link rel="stylesheet" href="../styles/style.css">
-    <meta name="keywords" content="sushi, nigiri, sashimi, rolls, dragon rolls, california
-    rolls">
-    <meta name="description" content="This page features our Appetizers! We have many
-    different kinds of salads, as well as Gyoza, Edamame, Jalapeno Calamari, and Shrimp
-    and Vegetable Tempura.">
+    <meta name="keywords" content="sushi, rolls, california rolls, dragon rolls, ">
+    <meta name="description" content="This page features our Sushi Rolls. We have
+    many different types of rolls as well as specials that we offer. If you are
+    interested in this visit our Contact Us Page. Our most popular rolls are dragon
+    rolls, california rolls, and spicy tuna rolls.">
 </head>
 <body>
     <header>
-        <nav id="nav-list">
-            <ul>
-                <li><a href="../HomePage.html">Home Page</a></li>
-                <li><a href="ReservationPage.html">Reservations</a></li>
-                <li><a href="ContactUs.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Sushi</h1></div>
     </header>
+    <nav id="nav-list">
+        <ul>
+            <li><a href="../HomePage.html">Home Page</a></li>
+            <li><a href="ReservationPage.html">Reservations</a></li>
+            <li><a href="OurMenu.html">Order Takeout</a>
+                <ul>
+                    <li><a href="Appetizers.html">Appetizers</a></li>
+                    <li><a href="DonburiBowls.html">Donburi Bowls</a></li>
+                    <li><a href="Ramen.html">Ramen</a></li>
+                    <li><a href="Sushi.html">Sushi</a></li>
+                </ul>
+            </li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <br>
+    <form id="order" action="../subpages/OrderConfirmationPage.html" method="post">
+        <fieldset>
+            <legend>Cooked Sushi Rolls</legend>
+            <input type="checkbox" name="cooked" id="cooked1" value="avo">
+            <label for="cooked1">Avocado Maki: $5</label><br>
+            <input type="checkbox" name="cooked" id="cooked2" value="kappa">
+            <label for="cooked2">Kappa Maki: $5</label><br>
+            <input type="checkbox" name="cooked" id="cooked3" value="vegetarian">
+            <label for="cooked3">Vegetarian Roll: $6</label><br>
+            <input type="checkbox" name="cooked" id="cooked4" value="cali">
+            <label for="cooked4">California Roll: $7</label><br>
+            <input type="checkbox" name="cooked" id="cooked5" value="spicycali">
+            <label for="cooked5">Spicy California Roll: $7</label><br>
+            <input type="checkbox" name="cooked" id="cooked6" value="shrimptemp">
+            <label for="cooked6">Shrimp Tempura Roll Roll: $8</label><br>
+            <input type="checkbox" name="cooked" id="cooked7" value="philly">
+            <label for="cooked7">Philadelphia Roll: $9</label><br>
+            <input type="checkbox" name="cooked" id="cooked8" value="crunchy">
+            <label for="cooked8">Crunchy California Roll: $9</label><br>
+            <input type="checkbox" name="cooked" id="cooked9" value="tiger">
+            <label for="cooked9">Tiger Roll: $14</label><br>
+            <input type="checkbox" name="cooked" id="cooked10" value="dragon">
+            <label for="cooked10">Dragon Roll: $15</label><br>
+            <input type="checkbox" name="cooked" id="cooked11" value="white">
+            <label for="cooked6">White Dragon Roll: $15</label><br>
+            <input type="checkbox" name="cooked" id="cooked12" value="shogun">
+            <label for="cooked6">Shogun Roll: $16</label><br>
+            </fieldset>
+    </form>
 </body>
 </html>
