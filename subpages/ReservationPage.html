@@ -13,16 +13,25 @@
 </head>
 <body>
     <header>
-        <nav id="nav-list">
-            <ul>
-                <li><a href="../HomePage.html">Home Page</a></li>
-                <li><a href="ReservationPage.html">Reservations</a></li>
-                <li><a href="ContactUs.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Reservations</h1></div>
     </header>
-    <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Reservations</h1></div><br>
-    <form id="order" action="../subpages/ReservationConfirmed.html" method="post">
+    <nav id="nav-list">
+        <ul>
+            <li><a href="../HomePage.html">Home Page</a></li>
+            <li><a href="ReservationPage.html">Reservations</a></li>
+            <li><a href="OurMenu.html">Order Takeout</a>
+                <ul>
+                    <li><a href="Appetizers.html">Appetizers</a></li>
+                    <li><a href="DonburiBowls.html">Donburi Bowls</a></li>
+                    <li><a href="Ramen.html">Ramen</a></li>
+                    <li><a href="Sushi.html">Sushi</a></li>
+                </ul>
+            </li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <br>
+    <form id="order" action="ReservationConfirmed.html" method="post">
     <h2>Enter your Information</h2><br>
     <br>
     <label for="name">Enter your name:</label><br>
@@ -35,7 +44,7 @@
     <input type="time" name="time" id="time" min="11:00" max="21:30" required>
     <br>
     <input class="checkout" type="submit" id="checkout" value="Checkout">
-    <input class="clear" type="reset" id="resetorder" value="Clear Cart">
+    <input class="clear" type="reset" id="resetorder" value="Clear Info">
     </form>
 </body>
 </html>
