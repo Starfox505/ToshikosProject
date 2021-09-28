@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +13,15 @@
     udon and ramen, as well as many different broths such as, miso, tonkotsu, and
     udon.">
 </head>
+
 <body>
     <header>
-        <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Ramen</h1></div>
+        <div><a href="../HomePage.html"><img src="../images/logo.png"
+                    alt="The logo of Toshikos Japanese Cuisine which is a mountain."></a>
+            <h1 class="title">Ramen</h1>
+        </div>
     </header>
-    <nav id="nav-list">
+    <nav class="nav-list">
         <ul>
             <li><a href="../HomePage.html">Home Page</a></li>
             <li><a href="ReservationPage.html">Reservations</a></li>
@@ -33,102 +38,123 @@
     </nav>
     <br>
     <form id="order" action="../subpages/OrderConfirmationPage.html" method="post">
-    <fieldset>
-        <legend>Miso Ramen</legend>
-        <input type="checkbox" name="miso" id="miso1" value="pork">
-        <label for="miso1">Cha Shu Pork</label><br>
-        <input type="checkbox" name="miso" id="miso2" value="corn">
-        <label for="miso2">Corn</label><br>
-        <input type="checkbox" name="miso" id="miso3" value="cabbage">
-        <label for="miso3">Cabbage</label><br>
-        <input type="checkbox" name="miso" id="miso4" value="onion">
-        <label for="miso4">Green Onion</label><br>
-        <input type="checkbox" name="miso" id="miso5" value="wakame">
-        <label for="miso5">Wakame</label><br>
-        <input type="checkbox" name="miso" id="miso6" value="broth">
-        <label for="miso6">Tonkatsu Broth</label><br>
-        <input type="checkbox" name="miso" id="miso7" value="noodles">
-        <label for="mmiso7">Ramen Noodles</label><br>
+        <fieldset>
+            <legend>Miso Ramen $13</legend>
+            <input type="checkbox" name="miso" id="miso1" value="pork">
+            <label for="miso1">Cha Shu Pork</label><br>
+            <input type="checkbox" name="miso" id="miso2" value="corn">
+            <label for="miso2">Corn</label><br>
+            <input type="checkbox" name="miso" id="miso3" value="cabbage">
+            <label for="miso3">Cabbage</label><br>
+            <input type="checkbox" name="miso" id="miso4" value="onion">
+            <label for="miso4">Green Onion</label><br>
+            <input type="checkbox" name="miso" id="miso5" value="wakame">
+            <label for="miso5">Wakame</label><br>
+            <input type="checkbox" name="miso" id="miso6" value="broth">
+            <label for="miso6">Tonkatsu Broth</label><br>
+            <input type="checkbox" name="miso" id="miso7" value="noodles">
+            <label for="mmiso7">Ramen Noodles</label><br>
         </fieldset>
-    <fieldset>
-        <legend>Tonkatsu Ramen</legend>
-        <input type="checkbox" name="tonkatsu" id="tonk1" value="pork">
-        <label for="tonk1">Cha Shu Pork</label><br>
-        <input type="checkbox" name="tonkatsu" id="tonk2" value="onion">
-        <label for="tonk2">Green Onion</label><br>
-        <input type="checkbox" name="tonkatsu" id="tonk3" value="wakame">
-        <label for="tonk3">Wakame</label><br>
-        <input type="checkbox" name="tonkatsu" id="tonk4" value="ginger">
-        <label for="tonk4">Ginger</label><br>
-        <input type="checkbox" name="tonkatsu" id="tonk5" value="broth">
-        <label for="tonk5">Tonkatsu Broth</label><br>
-        <input type="checkbox" name="tonkatsu" id="tonk6" value="noodles">
-        <label for="tonk6">Ramen Noodles</label><br>
-    </fieldset>
-    <fieldset>
-        <legend>Tonkatsu Tonkatsu Ramen</legend>
-        <input type="checkbox" name="tonkatsu2" id="tonktonk1" value="tonkatsu">
-        <label for="tonktonk1">Tonkatsu</label><br>
-        <input type="checkbox" name="tonkatsu2" id="tonktonk2" value="onion">
-        <label for="tonktonk2">Green Onion</label><br>
-        <input type="checkbox" name="tonkatsu2" id="tonktonk3" value="wakame">
-        <label for="tonktonk3">Wakame</label><br>
-        <input type="checkbox" name="tonkatsu2" id="tonktonk4" value="cabbage">
-        <label for="tonktonk4">Cabbage</label><br>
-        <input type="checkbox" name="tonkatsu2" id="tonktonk5" value="egg">
-        <label for="tonktonk5">Soft Boiled Egg</label><br>
-        <input type="checkbox" name="tonkatsu2" id="tonktonk6" value="garlic">
-        <label for="tonktonk6">Black Garlic</label><br>
-        <input type="checkbox" name="tonkatsu2" id="tonktonk7" value="broth">
-        <label for="tonktonk7">Tonkatsu Broth</label><br>
-        <input type="checkbox" name="tonkatsu2" id="tonktonk8" value="noodles">
-        <label for="tonktonk8">Ramen Noodles</label><br>
+        <fieldset>
+            <legend>Tonkatsu Ramen $13</legend>
+            <input type="checkbox" name="tonkatsu" id="tonk1" value="pork">
+            <label for="tonk1">Cha Shu Pork</label><br>
+            <input type="checkbox" name="tonkatsu" id="tonk2" value="onion">
+            <label for="tonk2">Green Onion</label><br>
+            <input type="checkbox" name="tonkatsu" id="tonk3" value="wakame">
+            <label for="tonk3">Wakame</label><br>
+            <input type="checkbox" name="tonkatsu" id="tonk4" value="ginger">
+            <label for="tonk4">Ginger</label><br>
+            <input type="checkbox" name="tonkatsu" id="tonk5" value="broth">
+            <label for="tonk5">Tonkatsu Broth</label><br>
+            <input type="checkbox" name="tonkatsu" id="tonk6" value="noodles">
+            <label for="tonk6">Ramen Noodles</label><br>
         </fieldset>
-    <fieldset>
-        <legend>Spicy Seafood Soup</legend>
-        <input type="checkbox" name="seafood" id="seafood1" value="seafood">
-        <label for="seafood1">Assorted Seafood</label><br>
-        <input type="checkbox" name="seafood" id="seafood2" value="onion">
-        <label for="seafood2">Green Onion</label><br>
-        <input type="checkbox" name="seafppd" id="seafood3" value="wakame">
-        <label for="seafood3">Wakame</label><br>
-        <input type="checkbox" name="seafood" id="seafood4" value="broth">
-        <label for="seafood4">50/50 Spicy Miso and Tonkatsu Broth</label><br>
-        <input type="checkbox" name="seafood" id="seafood5" value="noodles">
-        <label for="seafood5">Ramen Noodles</label><br>
-    </fieldset>
-    <fieldset>
-        <legend>Udon Noodle Soup</legend>
-        <input type="checkbox" name="udon" id="udon1" value="tofu">
-        <label for="udon1">Tofu</label><br>
-        <input type="checkbox" name="udon" id="udon2" value="onion">
-        <label for="udon2">Green Onion</label><br>
-        <input type="checkbox" name="udon" id="udon3" value="broth">
-        <label for="udon3">Wakame</label><br>
-        <input type="checkbox" name="udon" id="udon4" value="onion">
-        <label for="udon4">Udon Broth</label><br>
-        <input type="checkbox" name="udon" id="udon5" value="noodles">
-        <label for="udon5">Udon Noodles</label><br>
+        <fieldset>
+            <legend>Tonkatsu Tonkatsu Ramen $16</legend>
+            <input type="checkbox" name="tonkatsu2" id="tonktonk1" value="tonkatsu">
+            <label for="tonktonk1">Tonkatsu</label><br>
+            <input type="checkbox" name="tonkatsu2" id="tonktonk2" value="onion">
+            <label for="tonktonk2">Green Onion</label><br>
+            <input type="checkbox" name="tonkatsu2" id="tonktonk3" value="wakame">
+            <label for="tonktonk3">Wakame</label><br>
+            <input type="checkbox" name="tonkatsu2" id="tonktonk4" value="cabbage">
+            <label for="tonktonk4">Cabbage</label><br>
+            <input type="checkbox" name="tonkatsu2" id="tonktonk5" value="egg">
+            <label for="tonktonk5">Soft Boiled Egg</label><br>
+            <input type="checkbox" name="tonkatsu2" id="tonktonk6" value="garlic">
+            <label for="tonktonk6">Black Garlic</label><br>
+            <input type="checkbox" name="tonkatsu2" id="tonktonk7" value="broth">
+            <label for="tonktonk7">Tonkatsu Broth</label><br>
+            <input type="checkbox" name="tonkatsu2" id="tonktonk8" value="noodles">
+            <label for="tonktonk8">Ramen Noodles</label><br>
         </fieldset>
-    <fieldset>
-        <legend>Chicken Teriyaki Udon Noodle Soup</legend>
-        <input type="checkbox" name="chkudon" id="chkudon1" value="chicken">
-        <label for="chkudon1">Chicken Teriyaki</label><br>
-        <input type="checkbox" name="chkudon" id="chkudon2" value="tofu">
-        <label for="chkudon2">Tofu</label><br>
-        <input type="checkbox" name="chkudon" id="chkudon3" value="onion">
-        <label for="chkudon3">Green Onion</label><br>
-        <input type="checkbox" name="chkudon" id="chkudon4" value="wakame">
-        <label for="chkudon4">Wakame</label><br>
-        <input type="checkbox" name="chkudon" id="chkudon5" value="broth">
-        <label for="chkudon5">Udon Broth</label><br>
-        <input type="checkbox" name="chkudon" id="chkudon6" value="noodles">
-        <label for="chkudon6">Udon Noodles</label><br>
+        <fieldset>
+            <legend>Spicy Seafood Soup $15</legend>
+            <input type="checkbox" name="seafood" id="seafood1" value="seafood">
+            <label for="seafood1">Assorted Seafood</label><br>
+            <input type="checkbox" name="seafood" id="seafood2" value="onion">
+            <label for="seafood2">Green Onion</label><br>
+            <input type="checkbox" name="seafppd" id="seafood3" value="wakame">
+            <label for="seafood3">Wakame</label><br>
+            <input type="checkbox" name="seafood" id="seafood4" value="broth">
+            <label for="seafood4">50/50 Spicy Miso and Tonkatsu Broth</label><br>
+            <input type="checkbox" name="seafood" id="seafood5" value="noodles">
+            <label for="seafood5">Ramen Noodles</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Udon Noodle Soup $9</legend>
+            <input type="checkbox" name="udon" id="udon1" value="tofu">
+            <label for="udon1">Tofu</label><br>
+            <input type="checkbox" name="udon" id="udon2" value="onion">
+            <label for="udon2">Green Onion</label><br>
+            <input type="checkbox" name="udon" id="udon3" value="broth">
+            <label for="udon3">Wakame</label><br>
+            <input type="checkbox" name="udon" id="udon4" value="onion">
+            <label for="udon4">Udon Broth</label><br>
+            <input type="checkbox" name="udon" id="udon5" value="noodles">
+            <label for="udon5">Udon Noodles</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Chicken Teriyaki Udon Noodle Soup $13</legend>
+            <input type="checkbox" name="chkudon" id="chkudon1" value="chicken">
+            <label for="chkudon1">Chicken Teriyaki</label><br>
+            <input type="checkbox" name="chkudon" id="chkudon2" value="tofu">
+            <label for="chkudon2">Tofu</label><br>
+            <input type="checkbox" name="chkudon" id="chkudon3" value="onion">
+            <label for="chkudon3">Green Onion</label><br>
+            <input type="checkbox" name="chkudon" id="chkudon4" value="wakame">
+            <label for="chkudon4">Wakame</label><br>
+            <input type="checkbox" name="chkudon" id="chkudon5" value="broth">
+            <label for="chkudon5">Udon Broth</label><br>
+            <input type="checkbox" name="chkudon" id="chkudon6" value="noodles">
+            <label for="chkudon6">Udon Noodles</label><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Drinks:</legend>
+            <input type="radio" name="size" id="size1" value="small">
+            <label for="size1">Small</label><br>
+            <input type="radio" name="size" id="size2" value="large">
+            <label for="size2">Large</label><br>
+            <label for="drinks">Drink Choices:</label>
+            <select name="drinks" id="drinks">
+                <option value="coke">Coke</option>
+                <option value="diet">Diet Coke</option>
+                <option value="cherry">Cherry Coke</option>
+                <option value="sprite">Sprite</option>
+                <option value="lemonade">Lemonade</option>
+                <option value="drpepper">Dr. Pepper</option>
+                <option value="raspberry">Brisk Raspberry Tea</option>
+                <option value="iced">Iced Tea</option>
+                <option value="hot">Hot Green Tea</option>
+            </select>
         </fieldset>
         <br>
         <h2>Special Instructions</h2><br><br>
         <label for="instructions">Special Instructions:</label><br><br>
-        <textarea name="instructions" id="instructions" cols="70" rows="10" placeholder="If you have any preferences or allergies, please let us know here."></textarea><br>
+        <textarea name="instructions" id="instructions" cols="70" rows="10"
+            placeholder="If you have any preferences or allergies, please let us know here."></textarea><br>
         <br>
         <h2>Enter your Information</h2><br>
         <br>
@@ -148,4 +174,5 @@
         <input class="clear" type="reset" id="resetorder" value="Clear Cart">
     </form>
 </body>
+
 </html>
