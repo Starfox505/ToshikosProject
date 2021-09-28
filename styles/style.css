@@ -8,6 +8,10 @@ body {
     margin-right: 2rem;
 }
 
+p {
+    text-indent: 1.5rem;
+}
+
 input, select, textarea, fieldset {
     margin: .75rem auto;
 }
@@ -47,28 +51,69 @@ h2, legend {
     font-size: 1.5rem
 }
 
+.box {
+    background-color: rgb(255, 187, 0);
+    border: .5rem double rgb(38, 0, 255); 
+    padding: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
 h1 {
     font-size: 4rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-}
-
-#nav-list {
-    text-align: center;
+    text-indent: 0;
 }
 
 #nav-list ul {
-    list-style-type: none;
-    display: inline-block;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
-#nav-list ul li {float: left;}
+#nav-list ul li {
+    float: left;
+}
 
-#nav-list ul li a{
+#nav-list ul li a {
     text-align: center;
-    width: 170px;
-    padding: 1em;
+    display: block;
+    width: 176px;
+    padding: 1em 0;
     text-decoration: none;
     background-color: rgb(0, 0, 0);
-    border-right: 2px rgb(9, 255, 0);
+    color: rgb(4, 247, 255);
+}
+
+#nav-list ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+} 
+
+#nav-list ul ul li {
+    float: none;
+    position: relative;
+}
+
+#nav-list ul li:hover > ul {
+    display: block;
+}
+
+#nav-list > ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#nav-list ul li a.current {
+    color: rgb(108, 189, 3);
+}
+
+#nav-list li a:hover, #nav-list ul li a:focus {
+    background-color: rgb(44, 44, 44);
 }
