@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +12,15 @@
     at our establishment. While it is not required, we do highly suggest you
     reserve a table to ensure a quick and pleasant experience.">
 </head>
+
 <body>
     <header>
-        <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Reservations</h1></div>
+        <div><a href="../HomePage.html"><img src="../images/logo.png"
+                    alt="The logo of Toshikos Japanese Cuisine which is a mountain."></a>
+            <h1 class="title">Reservations</h1>
+        </div>
     </header>
-    <nav id="nav-list">
+    <nav class="nav-list">
         <ul>
             <li><a href="../HomePage.html">Home Page</a></li>
             <li><a href="ReservationPage.html">Reservations</a></li>
@@ -32,19 +37,21 @@
     </nav>
     <br>
     <form id="order" action="ReservationConfirmed.html" method="post">
-    <h2>Enter your Information</h2><br>
-    <br>
-    <label for="name">Enter your name:</label><br>
-    <input name="name" id="name" required><br>
-    <label for="phone">Enter your phone number:</label><br>
-    <input type="tel" name="phone" id="phone" maxlength="13" required><br>
-    <label for="date">Date:</label><br>
-    <input type="date" name="date" id="date" value="2021-10-1" required><br>
-    <label for="time">Pick Up Time:</label><br>
-    <input type="time" name="time" id="time" min="11:00" max="21:30" required>
-    <br>
-    <input class="checkout" type="submit" id="checkout" value="Checkout">
-    <input class="clear" type="reset" id="resetorder" value="Clear Info">
+        <h2>Enter your Information</h2><br>
+        <br>
+        <label for="name">Enter your name:</label><br>
+        <input name="name" id="name" required><br>
+        <label for="phone">Enter your phone number:</label><br>
+        <input type="tel" name="phone" id="phone" maxlength="13" required><br>
+        <label for="date">Date:</label><br>
+        <input type="date" name="date" id="date" value="2021-10-1" required><br>
+        <label for="time">Pick Up Time:</label><br>
+        <input type="time" name="time" id="time" min="11:00" max="21:30" required>
+        <br>
+        <br>
+        <input class="checkout" type="submit" id="checkout" value="Checkout">
+        <input class="clear" type="reset" id="resetorder" value="Clear Info">
     </form>
 </body>
+
 </html>
