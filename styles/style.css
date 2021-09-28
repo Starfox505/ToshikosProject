@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
 
+html {
+    background: linear-gradient(125deg, rgb(255, 0, 0), rgb(44, 41, 41));
+}
+
 body {
     font-size: 18px;
-    background-color: rgb(255, 0, 0);
     font-family: 'Lato', sans-serif;
     margin-left: 2rem;
     margin-right: 2rem;
+    line-height: 2rem;
 }
 
 p {
@@ -66,6 +70,7 @@ h1 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     text-indent: 0;
+    line-height: 3.5rem;
 }
 
 #nav-list ul {
@@ -83,7 +88,7 @@ h1 {
     text-align: center;
     display: block;
     width: 176px;
-    padding: 1em 0;
+    padding: 1rem 1rem;
     text-decoration: none;
     background-color: rgb(0, 0, 0);
     color: rgb(4, 247, 255);
