@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page | Toshikos Japanese Cuisine</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <meta name="keywords" content="Sushi Rolls, Ramen, Donburi, Potstickers, Home Page">
     <meta name="description" content="Welcome to Toshikos Japanese Cuisine! We offer many different
     options for Cuisine dining like Sushi Rolls, Ramen, and Donburi's, whether that be for takeout or
@@ -14,14 +14,23 @@
 </head>
 <body>
     <header>
-        <nav id="nav-list">
-            <ul>
-                <li><a href="../HomePage.html">Home Page</a></li>
-                <li><a href="ReservationPage.html">Reservations</a></li>
-                <li><a href="ContactUs.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div><img src="images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Welcome to Toshikos Japanese Cuisine</h1></div>
     </header>
-    <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Your Table has been confirmed!</h1></div><br><br><br>
+    <nav id="nav-list">
+        <ul>
+            <li><a href="HomePage.html">Home Page</a></li>
+            <li><a href="subpages/ReservationPage.html">Reservations</a></li>
+            <li><a href="subpages/OurMenu.html">Order Takeout</a>
+                <ul>
+                    <li><a href="subpages/Appetizers.html">Appetizers</a></li>
+                    <li><a href="subpages/DonburiBowls.html">Donburi Bowls</a></li>
+                    <li><a href="subpages/Ramen.html">Ramen</a></li>
+                    <li><a href="subpages/Sushi.html">Sushi</a></li>
+                </ul>
+            </li>
+            <li><a href="subpages/ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <br>
 </body>
 </html>
