@@ -6,23 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Appetizers | Toshikos Japanese Cuisine</title>
     <link rel="stylesheet" href="../styles/style.css">
-    <meta name="keywords" content="gyoza, tempura, calamari, edamame, potstickers,
-    salad, miso">
+    <meta name="keywords" content="gyoza, tempura, edamame, potstickers, salad, miso">
     <meta name="description" content="This page features our Appetizers! We have many
-    different kinds of salads, as well as Gyoza, Edamame, Jalapeno Calamari, and Shrimp
-    and Vegetable Tempura.">
+    different kinds of salads, as well as Gyoza, Edamame, and Shrimp and Vegetable 
+    Tempura.">
 </head>
 <body>
     <header>
-        <nav id="nav-list">
-            <ul>
-                <li><a href="../HomePage.html">Home Page</a></li>
-                <li><a href="ReservationPage.html">Reservations</a></li>
-                <li><a href="ContactUs.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Appetizers</h1></div>
     </header>
-    <div><img src="../images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Appetizers</h1></div>
+    <nav id="nav-list">
+        <ul>
+            <li><a href="../HomePage.html">Home Page</a></li>
+            <li><a href="ReservationPage.html">Reservations</a></li>
+            <li><a href="OurMenu.html">Order Takeout</a>
+                <ul>
+                    <li><a href="Appetizers.html">Appetizers</a></li>
+                    <li><a href="DonburiBowls.html">Donburi Bowls</a></li>
+                    <li><a href="Ramen.html">Ramen</a></li>
+                    <li><a href="Sushi.html">Sushi</a></li>
+                </ul>
+            </li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
     <form id="order" action="../subpages/OrderConfirmationPage.html" method="post">
     <fieldset>
         <legend>Edamame</legend>
@@ -51,7 +58,7 @@
         <input type="checkbox" name="sides" id="veg4" value="yams">
         <label for="veg4">Yams</label><br>
         <input type="checkbox" name="sides" id="shrimp" value="shrimp">
-        <label for="side1">Shrimp</label><br>
+        <label for="shrimp">Shrimp</label><br>
         </fieldset>
     <fieldset>
         <legend>Soups and Salads</legend>
@@ -84,7 +91,7 @@
     <br>
     <h2>Pick Up Time</h2><br><br>
     <label for="date">Date:</label><br>
-    <input type="date" name="date" id="date" value="2021-10-1" required><br>
+    <input type="date" name="date" id="date" value="2021-10-01" required><br>
     <label for="time">Pick Up Time:</label><br>
     <input type="time" name="time" id="time" min="11:00" max="21:30" required><br><br>
     <input class="checkout" type="submit" id="checkout" value="Checkout">
