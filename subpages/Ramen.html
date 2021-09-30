@@ -131,7 +131,6 @@
             <input type="checkbox" name="chkudon" id="chkudon6" value="noodles">
             <label for="chkudon6">Udon Noodles</label><br>
         </fieldset>
-        <br>
         <fieldset>
             <legend>Drinks:</legend>
             <input type="radio" name="size" id="size1" value="small">
@@ -151,14 +150,11 @@
                 <option value="hot">Hot Green Tea</option>
             </select>
         </fieldset>
-        <br>
-        <h2>Special Instructions</h2><br><br>
-        <label for="instructions">Special Instructions:</label><br><br>
+        <h2>Special Instructions</h2><br>
+        <label for="instructions">Special Instructions:</label><br>
         <textarea name="instructions" id="instructions" cols="70" rows="10"
             placeholder="If you have any preferences or allergies, please let us know here."></textarea><br>
-        <br>
         <h2>Enter your Information</h2><br>
-        <br>
         <label for="name">Enter your name:</label><br>
         <input name="name" id="name" required><br>
         <label for="email">Enter your email:</label><br>
@@ -166,14 +162,17 @@
         <label for="phone">Enter your phone number:</label><br>
         <input type="tel" name="phone" id="phone" maxlength="13" required><br>
         <br>
-        <h2>Pick Up Time</h2><br><br>
+        <h2>Pick Up Time</h2><br>
         <label for="date">Date:</label><br>
         <input type="date" name="date" id="date" value="2021-10-01" required><br>
         <label for="time">Pick Up Time:</label><br>
-        <input type="time" name="time" id="time" min="11:00" max="21:30" required><br><br>
+        <input type="time" name="time" id="time" min="11:00" max="21:30" required><br>
         <input class="checkout" type="submit" id="checkout" value="Checkout">
         <input class="clear" type="reset" id="resetorder" value="Clear Cart">
     </form>
+    <footer>
+        &copy; ToshikosJC
+    </footer>
 </body>
 
 </html>
