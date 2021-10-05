@@ -16,15 +16,15 @@
 </head>
 
 <body>
-    <header>
-        <div><a href="../HomePage.html"><img src="../images/logo.png"
+    <header name="top">
+        <div><a href="../index.html"><img src="../images/logo.png"
                     alt="The logo of Toshikos Japanese Cuisine which is a mountain."></a>
             <h1 class="title">Sushi</h1>
         </div>
     </header>
     <nav class="nav-list">
         <ul>
-            <li><a href="../HomePage.html">Home Page</a></li>
+            <li><a href="../index.html">Home Page</a></li>
             <li><a href="ReservationPage.html">Reservations</a></li>
             <li><a href="OurMenu.html">Order Takeout</a>
                 <ul>
@@ -39,199 +39,223 @@
     </nav>
     <br>
     <form id="order" action="../subpages/OrderConfirmationPage.html" method="post">
-        <fieldset>
-            <legend>Cooked Sushi Rolls</legend>
-            <input type="checkbox" name="cooked" id="cooked1" value="avo">
-            <label for="cooked1">Avocado Maki: $5</label><br>
-            <input type="checkbox" name="cooked" id="cooked2" value="kappa">
-            <label for="cooked2">Kappa Maki: $5</label><br>
-            <input type="checkbox" name="cooked" id="cooked3" value="vegetarian">
-            <label for="cooked3">Vegetarian Roll: $6</label><br>
-            <input type="checkbox" name="cooked" id="cooked4" value="cali">
-            <label for="cooked4">California Roll: $7</label><br>
-            <input type="checkbox" name="cooked" id="cooked5" value="spicycali">
-            <label for="cooked5">Spicy California Roll: $7</label><br>
-            <input type="checkbox" name="cooked" id="cooked6" value="shrimptemp">
-            <label for="cooked6">Shrimp Tempura Roll: $8</label><br>
-            <input type="checkbox" name="cooked" id="cooked7" value="philly">
-            <label for="cooked7">Philadelphia Roll: $9</label><br>
-            <input type="checkbox" name="cooked" id="cooked8" value="crunchy">
-            <label for="cooked8">Crunchy California Roll: $9</label><br>
-            <input type="checkbox" name="cooked" id="cooked9" value="tiger">
-            <label for="cooked9">Tiger Roll: $14</label><br>
-            <input type="checkbox" name="cooked" id="cooked10" value="dragon">
-            <label for="cooked10">Dragon Roll: $15</label><br>
-            <input type="checkbox" name="cooked" id="cooked11" value="white">
-            <label for="cooked6">White Dragon Roll: $15</label><br>
-            <input type="checkbox" name="cooked" id="cooked12" value="shogun">
-            <label for="cooked6">Shogun Roll: $16</label><br>
-        </fieldset>
-        <fieldset>
-            <legend>Raw Sushi Rolls</legend>
-            <input type="checkbox" name="raw" id="raw1" value="avo">
-            <label for="raw1">Tekka Maki: $7</label><br>
-            <input type="checkbox" name="raw" id="raw2" value="kappa">
-            <label for="raw2">Spicy Tuna Roll: $8</label><br>
-            <input type="checkbox" name="raw" id="raw3" value="vegetarian">
-            <label for="raw3">Salmon Roll: $8</label><br>
-            <input type="checkbox" name="raw" id="raw4" value="cali">
-            <label for="raw4">Scorpion Roll: $18</label><br>
-            <input type="checkbox" name="raw" id="raw5" value="spicycali">
-            <label for="raw5">Raging Samurai Roll: $18</label><br>
-            <input type="checkbox" name="raw" id="raw6" value="shrimptemp">
-            <label for="raw6">Red Dragon Roll: $15</label><br>
-            <input type="checkbox" name="raw" id="raw7" value="philly">
-            <label for="raw7">Nitro Roll: $14</label><br>
-            <input type="checkbox" name="raw" id="raw8" value="crunchy">
-            <label for="raw8">I Heart Tuna Roll: $15</label><br>
-            <input type="checkbox" name="raw" id="raw9" value="tiger">
-            <label for="raw9">Spicy Salmon Tempura Roll: $13</label><br>
-            <input type="checkbox" name="raw" id="raw10" value="dragon">
-            <label for="raw10">Rainbow Roll: $13</label><br>
-        </fieldset>
-        <fieldset>
-            <legend>Nigiri</legend>
-            <input type="checkbox" name="nigiri" id="nigiri1" value="avo">
-            <label for="nigiri1">Albacore: $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri2" value="kappa">
-            <label for="nigiri2">Ebi (Shrimp): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri3" value="vegetarian">
-            <label for="nigiri3">Hamachi (Yellowtail): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri4" value="cali">
-            <label for="nigiri4">Hotate (Scallops): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri5" value="spicycali">
-            <label for="nigiri5">Ika (Squid): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri6" value="shrimptemp">
-            <label for="nigiri6">Inari (Tofu Skin): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri7" value="philly">
-            <label for="nigiri7">Maguro (Tuna): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri8" value="crunchy">
-            <label for="nigiri8">Masago (Fish Eggs): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri9" value="tiger">
-            <label for="nigiri9">Ono (Butterfish): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri10" value="dragon">
-            <label for="nigiri10">Saba (Mackerel): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri11" value="white">
-            <label for="nigiri11">Salmon: $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri12" value="shogun">
-            <label for="nigiri12">Seared Tuna: $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri13" value="tiger">
-            <label for="nigiri13">Tai (Red Snapper): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri14" value="dragon">
-            <label for="nigiri14">Tamago (Sweet Egg): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri15" value="white">
-            <label for="nigiri15">Tobiko (Fish Eggs): $6</label><br>
-            <input type="checkbox" name="nigiri" id="nigiri16" value="shogun">
-            <label for="nigiri16">Unagi (Eel): $6</label><br>
-        </fieldset>
-        <fieldset>
-            <legend>Sashimi</legend>
-            <input type="checkbox" name="sashimi" id="sashimi1" value="avo">
-            <label for="sashimi1">Albacore: $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi2" value="kappa">
-            <label for="sashimi2">Ebi (Shrimp): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi3" value="vegetarian">
-            <label for="sashimi3">Hamachi (Yellowtail): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi4" value="cali">
-            <label for="sashimi4">Hotate (Scallops): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi5" value="spicycali">
-            <label for="sashimi5">Ika (Squid): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi6" value="shrimptemp">
-            <label for="sashimi6">Inari (Tofu Skin): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi7" value="philly">
-            <label for="sashimi7">Maguro (Tuna): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi8" value="crunchy">
-            <label for="sashimi8">Masago (Fish Eggs): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi9" value="tiger">
-            <label for="sashimi9">Ono (Butterfish): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi10" value="dragon">
-            <label for="sashimi10">Saba (Mackerel): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi11" value="white">
-            <label for="sashimi11">Salmon: $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi12" value="shogun">
-            <label for="sashimi12">Seared Tuna: $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi13" value="tiger">
-            <label for="sashimi13">Tai (Red Snapper): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi14" value="dragon">
-            <label for="sashimi14">Tamago (Sweet Egg): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi15" value="white">
-            <label for="sashimi15">Tobiko (Fish Eggs): $11</label><br>
-            <input type="checkbox" name="sashimi" id="sashimi16" value="shogun">
-            <label for="sashimi16">Unagi (Eel): $11</label><br>
-        </fieldset>
-        <fieldset>
-            <legend>Handrolls</legend>
-            <input type="checkbox" name="handroll" id="handroll1" value="avo">
-            <label for="handroll1">Albacore: $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll2" value="kappa">
-            <label for="handroll2">Ebi (Shrimp): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll3" value="vegetarian">
-            <label for="handroll3">Hamachi (Yellowtail): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll4" value="cali">
-            <label for="handroll4">Hotate (Scallops): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll5" value="spicycali">
-            <label for="handroll5">Ika (Squid): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll6" value="shrimptemp">
-            <label for="handroll6">Inari (Tofu Skin): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll7" value="philly">
-            <label for="handroll7">Maguro (Tuna): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll8" value="crunchy">
-            <label for="handroll8">Masago (Fish Eggs): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll9" value="tiger">
-            <label for="handroll9">Ono (Butterfish): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll10" value="dragon">
-            <label for="handroll10">Saba (Mackerel): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll11" value="white">
-            <label for="handroll11">Salmon: $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll12" value="shogun">
-            <label for="handroll12">Seared Tuna: $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll13" value="tiger">
-            <label for="handroll13">Tai (Red Snapper): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll14" value="dragon">
-            <label for="handroll14">Tamago (Sweet Egg): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll15" value="white">
-            <label for="handroll15">Tobiko (Fish Eggs): $6</label><br>
-            <input type="checkbox" name="handroll" id="handroll16" value="shogun">
-            <label for="handroll16">Unagi (Eel): $6</label><br>
-        </fieldset>
-        <fieldset>
-            <legend>Drinks:</legend>
-            <input type="radio" name="size" id="size1" value="small">
-            <label for="size1">Small $3</label><br>
-            <input type="radio" name="size" id="size2" value="large">
-            <label for="size2">Large $4</label><br>
-            <label for="drinks">Drink Choices:</label>
-            <select name="drinks" id="drinks">
-                <option value="coke">Coke</option>
-                <option value="diet">Diet Coke</option>
-                <option value="cherry">Cherry Coke</option>
-                <option value="sprite">Sprite</option>
-                <option value="lemonade">Lemonade</option>
-                <option value="drpepper">Dr. Pepper</option>
-                <option value="raspberry">Brisk Raspberry Tea</option>
-                <option value="iced">Iced Tea</option>
-                <option value="hot">Hot Green Tea</option>
-            </select>
-        </fieldset>
-        <h2>Special Instructions</h2><br>
-        <label for="instructions">Special Instructions:</label><br>
-        <textarea name="instructions" id="instructions" cols="70" rows="10"
-            placeholder="If you have any preferences or allergies, please let us know here."></textarea><br>
-        <h2>Enter your Information</h2><br>
-        <label for="name">Enter your name:</label><br>
-        <input name="name" id="name" required><br>
-        <label for="email">Enter your email:</label><br>
-        <input type="email" name="email" id="email" maxlength="50" required><br>
-        <label for="phone">Enter your phone number:</label><br>
-        <input type="tel" name="phone" id="phone" maxlength="13" required><br>
-        <h2>Pick Up Time</h2><br>
-        <label for="date">Date:</label><br>
-        <input type="date" name="date" id="date" value="2021-10-01" required><br>
-        <label for="time">Pick Up Time:</label><br>
-        <input type="time" name="time" id="time" min="11:00" max="21:30" required><br>
-        <input class="checkout" type="submit" id="checkout" value="Checkout">
-        <input class="clear" type="reset" id="resetorder" value="Clear Cart">
+        <section class="box">
+            <fieldset>
+                <legend>Cooked Sushi Rolls</legend>
+                <input type="checkbox" name="cooked" id="cooked1" value="avo">
+                <label for="cooked1">Avocado Maki: $5</label><br>
+                <input type="checkbox" name="cooked" id="cooked2" value="kappa">
+                <label for="cooked2">Kappa Maki: $5</label><br>
+                <input type="checkbox" name="cooked" id="cooked3" value="vegetarian">
+                <label for="cooked3">Vegetarian Roll: $6</label><br>
+                <input type="checkbox" name="cooked" id="cooked4" value="cali">
+                <label for="cooked4">California Roll: $7</label><br>
+                <input type="checkbox" name="cooked" id="cooked5" value="spicycali">
+                <label for="cooked5">Spicy California Roll: $7</label><br>
+                <input type="checkbox" name="cooked" id="cooked6" value="shrimptemp">
+                <label for="cooked6">Shrimp Tempura Roll: $8</label><br>
+                <input type="checkbox" name="cooked" id="cooked7" value="philly">
+                <label for="cooked7">Philadelphia Roll: $9</label><br>
+                <input type="checkbox" name="cooked" id="cooked8" value="crunchy">
+                <label for="cooked8">Crunchy California Roll: $9</label><br>
+                <input type="checkbox" name="cooked" id="cooked9" value="tiger">
+                <label for="cooked9">Tiger Roll: $14</label><br>
+                <input type="checkbox" name="cooked" id="cooked10" value="dragon">
+                <label for="cooked10">Dragon Roll: $15</label><br>
+                <input type="checkbox" name="cooked" id="cooked11" value="white">
+                <label for="cooked6">White Dragon Roll: $15</label><br>
+                <input type="checkbox" name="cooked" id="cooked12" value="shogun">
+                <label for="cooked6">Shogun Roll: $16</label><br>
+            </fieldset>
+        </section>
+        <br>
+        <section class="box">
+            <fieldset>
+                <legend>Raw Sushi Rolls</legend>
+                <input type="checkbox" name="raw" id="raw1" value="avo">
+                <label for="raw1">Tekka Maki: $7</label><br>
+                <input type="checkbox" name="raw" id="raw2" value="kappa">
+                <label for="raw2">Spicy Tuna Roll: $8</label><br>
+                <input type="checkbox" name="raw" id="raw3" value="vegetarian">
+                <label for="raw3">Salmon Roll: $8</label><br>
+                <input type="checkbox" name="raw" id="raw4" value="cali">
+                <label for="raw4">Scorpion Roll: $18</label><br>
+                <input type="checkbox" name="raw" id="raw5" value="spicycali">
+                <label for="raw5">Raging Samurai Roll: $18</label><br>
+                <input type="checkbox" name="raw" id="raw6" value="shrimptemp">
+                <label for="raw6">Red Dragon Roll: $15</label><br>
+                <input type="checkbox" name="raw" id="raw7" value="philly">
+                <label for="raw7">Nitro Roll: $14</label><br>
+                <input type="checkbox" name="raw" id="raw8" value="crunchy">
+                <label for="raw8">I Heart Tuna Roll: $15</label><br>
+                <input type="checkbox" name="raw" id="raw9" value="tiger">
+                <label for="raw9">Spicy Salmon Tempura Roll: $13</label><br>
+                <input type="checkbox" name="raw" id="raw10" value="dragon">
+                <label for="raw10">Rainbow Roll: $13</label><br>
+            </fieldset>
+        </section>
+        <br>
+        <section class="box">
+            <fieldset>
+                <legend>Nigiri</legend>
+                <input type="checkbox" name="nigiri" id="nigiri1" value="avo">
+                <label for="nigiri1">Albacore: $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri2" value="kappa">
+                <label for="nigiri2">Ebi (Shrimp): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri3" value="vegetarian">
+                <label for="nigiri3">Hamachi (Yellowtail): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri4" value="cali">
+                <label for="nigiri4">Hotate (Scallops): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri5" value="spicycali">
+                <label for="nigiri5">Ika (Squid): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri6" value="shrimptemp">
+                <label for="nigiri6">Inari (Tofu Skin): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri7" value="philly">
+                <label for="nigiri7">Maguro (Tuna): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri8" value="crunchy">
+                <label for="nigiri8">Masago (Fish Eggs): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri9" value="tiger">
+                <label for="nigiri9">Ono (Butterfish): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri10" value="dragon">
+                <label for="nigiri10">Saba (Mackerel): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri11" value="white">
+                <label for="nigiri11">Salmon: $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri12" value="shogun">
+                <label for="nigiri12">Seared Tuna: $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri13" value="tiger">
+                <label for="nigiri13">Tai (Red Snapper): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri14" value="dragon">
+                <label for="nigiri14">Tamago (Sweet Egg): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri15" value="white">
+                <label for="nigiri15">Tobiko (Fish Eggs): $6</label><br>
+                <input type="checkbox" name="nigiri" id="nigiri16" value="shogun">
+                <label for="nigiri16">Unagi (Eel): $6</label><br>
+            </fieldset>
+        </section>
+        <br>
+        <section class="box">
+            <fieldset>
+                <legend>Sashimi</legend>
+                <input type="checkbox" name="sashimi" id="sashimi1" value="avo">
+                <label for="sashimi1">Albacore: $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi2" value="kappa">
+                <label for="sashimi2">Ebi (Shrimp): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi3" value="vegetarian">
+                <label for="sashimi3">Hamachi (Yellowtail): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi4" value="cali">
+                <label for="sashimi4">Hotate (Scallops): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi5" value="spicycali">
+                <label for="sashimi5">Ika (Squid): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi6" value="shrimptemp">
+                <label for="sashimi6">Inari (Tofu Skin): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi7" value="philly">
+                <label for="sashimi7">Maguro (Tuna): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi8" value="crunchy">
+                <label for="sashimi8">Masago (Fish Eggs): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi9" value="tiger">
+                <label for="sashimi9">Ono (Butterfish): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi10" value="dragon">
+                <label for="sashimi10">Saba (Mackerel): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi11" value="white">
+                <label for="sashimi11">Salmon: $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi12" value="shogun">
+                <label for="sashimi12">Seared Tuna: $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi13" value="tiger">
+                <label for="sashimi13">Tai (Red Snapper): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi14" value="dragon">
+                <label for="sashimi14">Tamago (Sweet Egg): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi15" value="white">
+                <label for="sashimi15">Tobiko (Fish Eggs): $11</label><br>
+                <input type="checkbox" name="sashimi" id="sashimi16" value="shogun">
+                <label for="sashimi16">Unagi (Eel): $11</label><br>
+            </fieldset>
+        </section>
+        <br>
+        <section class="box">
+            <fieldset>
+                <legend>Handrolls</legend>
+                <input type="checkbox" name="handroll" id="handroll1" value="avo">
+                <label for="handroll1">Albacore: $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll2" value="kappa">
+                <label for="handroll2">Ebi (Shrimp): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll3" value="vegetarian">
+                <label for="handroll3">Hamachi (Yellowtail): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll4" value="cali">
+                <label for="handroll4">Hotate (Scallops): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll5" value="spicycali">
+                <label for="handroll5">Ika (Squid): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll6" value="shrimptemp">
+                <label for="handroll6">Inari (Tofu Skin): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll7" value="philly">
+                <label for="handroll7">Maguro (Tuna): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll8" value="crunchy">
+                <label for="handroll8">Masago (Fish Eggs): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll9" value="tiger">
+                <label for="handroll9">Ono (Butterfish): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll10" value="dragon">
+                <label for="handroll10">Saba (Mackerel): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll11" value="white">
+                <label for="handroll11">Salmon: $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll12" value="shogun">
+                <label for="handroll12">Seared Tuna: $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll13" value="tiger">
+                <label for="handroll13">Tai (Red Snapper): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll14" value="dragon">
+                <label for="handroll14">Tamago (Sweet Egg): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll15" value="white">
+                <label for="handroll15">Tobiko (Fish Eggs): $6</label><br>
+                <input type="checkbox" name="handroll" id="handroll16" value="shogun">
+                <label for="handroll16">Unagi (Eel): $6</label><br>
+            </fieldset>
+        </section>
+        <br>
+        <section class="box">
+            <fieldset>
+                <legend>Drinks:</legend>
+                <input type="radio" name="size" id="size1" value="small">
+                <label for="size1">Small $3</label><br>
+                <input type="radio" name="size" id="size2" value="large">
+                <label for="size2">Large $4</label><br>
+                <label for="drinks">Drink Choices:</label>
+                <select name="drinks" id="drinks">
+                    <option value="coke">Coke</option>
+                    <option value="diet">Diet Coke</option>
+                    <option value="cherry">Cherry Coke</option>
+                    <option value="sprite">Sprite</option>
+                    <option value="lemonade">Lemonade</option>
+                    <option value="drpepper">Dr. Pepper</option>
+                    <option value="raspberry">Brisk Raspberry Tea</option>
+                    <option value="iced">Iced Tea</option>
+                    <option value="hot">Hot Green Tea</option>
+                </select>
+            </fieldset>
+        </section>
+        <br>
+        <section class="box">
+            <h2>Special Instructions</h2><br>
+            <label for="instructions">Special Instructions:</label><br>
+            <textarea name="instructions" id="instructions" cols="70" rows="10"
+                placeholder="If you have any preferences or allergies, please let us know here."></textarea><br>
+        </section>
+        <br>
+        <section class="box">
+            <h2>Enter your Information</h2><br>
+            <label for="name">Enter your name:</label><br>
+            <input name="name" id="name" required><br>
+            <label for="email">Enter your email:</label><br>
+            <input type="email" name="email" id="email" maxlength="50" required><br>
+            <label for="phone">Enter your phone number:</label><br>
+            <input type="tel" name="phone" id="phone" maxlength="13" required><br>
+            <h2>Pick Up Time</h2><br>
+            <label for="date">Date:</label><br>
+            <input type="date" name="date" id="date" value="2021-10-01" required><br>
+            <label for="time">Pick Up Time:</label><br>
+            <input type="time" name="time" id="time" min="11:00" max="21:30" required><br>
+            <input class="checkout" type="submit" id="checkout" value="Checkout">
+            <input class="clear" type="reset" id="resetorder" value="Clear Cart">
+        </section>
     </form>
+    <button id="back-to-top"><a href="#top">Back to Top</a></button>
     <footer>
         &copy; ToshikosJC
     </footer>
